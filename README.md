@@ -28,7 +28,7 @@ send_email(to=email, body=html, is_html=True)
 ├── templates/
 ├── attachments/
 ├── requirements.txt
-└── README.md
+└── README.md'''
 
 ### Contributing
 1. Fork the repo
