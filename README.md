@@ -19,7 +19,7 @@ Streamline your email workflows with this Python script that automates sending p
    cd Email-Automation-using-Python
 Install dependencies:
 
-bash
+'''bash
 pip install smtplib pandas openpyxl email
 Setup Gmail: Enable 2FA → Generate App Password → Update credentials
 
@@ -31,7 +31,7 @@ Jane	jane@example.com
 Run: python email_automator.py
 
 💻 Usage Examples
-python
+'''python
 # Simple email
 send_email(to="user@example.com", subject="Update", body="Hello!")
 
@@ -50,7 +50,7 @@ send_email(to=email, body=html, is_html=True)
 ├── requirements.txt
 └── README.md
 🔒 Security
-python
+'''python
 import os
 password = os.getenv('GMAIL_APP_PASSWORD')
 🤝 Contributing
